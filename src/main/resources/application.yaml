@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: aula-security
+
+logging:
+  level:
+    org.springframework.security: DEBUG
