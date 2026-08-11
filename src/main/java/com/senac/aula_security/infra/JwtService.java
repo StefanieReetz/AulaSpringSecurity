@@ -47,6 +47,6 @@ public class JwtService {
     }
 
     private SecretKey gerarChave() {
-        return Keys.hmacShaKeyFor("Vasco".getBytes(StandardCharsets.UTF_8));
+        return Keys.hmacShaKeyFor("asdfghjqwertyuidfghvbnmdfgrtydfgerrr".getBytes(StandardCharsets.UTF_8));
     }
 }
